@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>All Language - Login</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f7f7f7;
+margin:0;
+}
+
+header{
+background:#4CAF50;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.container{
+width:50%;
+margin:auto;
+background:white;
+padding:30px;
+margin-top:50px;
+border-radius:8px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:15px;
+margin-bottom:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.btn{
+background:#4cafac;
+color:white;
+border:none;
+padding:15px;
+width:100%;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>All Language</h1>
+<h2>Aprenda idiomas facilmente</h2>
+</header>
+
+<div class="container">
+
+<form action="idioma.html">
+
+<input type="email" placeholder="Seu email" required>
+
+<input type="password" placeholder="Sua senha" required>
+
+<button class="btn">Entrar</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Escolher idioma</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f7f7f7;
+margin:0;
+}
+
+header{
+background:#4cafac;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.container{
+width:50%;
+margin:auto;
+margin-top:50px;
+background:white;
+padding:30px;
+border-radius:8px;
+}
+
+.idioma{
+padding:15px;
+border:1px solid #ddd;
+border-radius:8px;
+margin-bottom:10px;
+cursor:pointer;
+}
+
+.idioma:hover{
+background:#eaeaea;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Escolha o idioma</h1>
+</header>
+
+<div class="container">
+
+<form action="config.html">
+
+<div class="idioma">
+<input type="radio" name="idioma" required> 🇺🇸 Inglês
+</div>
+
+<div class="idioma">
+<input type="radio" name="idioma"> 🇪🇸 Espanhol
+</div>
+
+<div class="idioma">
+<input type="radio" name="idioma"> 🇫🇷 Francês
+</div>
+
+<div class="idioma">
+<input type="radio" name="idioma"> 🇩🇪 Alemão
+</div>
+
+<button style="margin-top:20px" class="btn">Continuar</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Configurações</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f7f7f7;
+margin:0;
+}
+
+header{
+background:#4cafac;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.container{
+width:50%;
+margin:auto;
+background:white;
+padding:30px;
+margin-top:50px;
+border-radius:8px;
+}
+
+select{
+width:100%;
+padding:15px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#4cafac;
+color:white;
+border:none;
+padding:15px;
+width:100%;
+border-radius:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Configurações</h1>
+</header>
+
+<div class="container">
+
+<form action="mapa.html">
+
+<label>Nível</label>
+
+<select>
+
+<option>Iniciante</option>
+<option>Intermediário</option>
+<option>Avançado</option>
+
+</select>
+
+<label>Tipo de aula</label>
+
+<select>
+
+<option>Leve</option>
+<option>Intensa</option>
+
+</select>
+
+<button class="btn">Começar</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Mapa de Aulas</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f7f7f7;
+text-align:center;
+}
+
+header{
+background:#4cafac;
+color:white;
+padding:20px;
+}
+
+.aula{
+background:white;
+width:200px;
+margin:20px auto;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+cursor:pointer;
+}
+
+.aula:hover{
+background:#eaeaea;
+}
+
+.lock{
+opacity:0.4;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Mapa de Aulas</h1>
+<p>❤️ 5 vidas</p>
+</header>
+
+<a href="aula1.html">
+<div class="aula">
+Aula 1  
+<br>
+Se apresentando
+</div>
+</a>
+
+<div class="aula lock">
+Aula 2 🔒  
+Cumprimentos
+</div>
+
+<div class="aula lock">
+Aula 3 🔒  
+Números
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Aula 1</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f7f7f7;
+text-align:center;
+}
+
+.container{
+background:white;
+width:60%;
+margin:auto;
+margin-top:50px;
+padding:30px;
+border-radius:10px;
+}
+
+input{
+padding:10px;
+width:60%;
+}
+
+button{
+padding:10px 20px;
+margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Aula 1 — Se apresentando</h2>
+
+<p>Em inglês dizemos:</p>
+
+<h3>Hello, my name is...</h3>
+
+<p>Significa:</p>
+
+<h3>Olá, meu nome é...</h3>
+
+<hr>
+
+<p>Como se diz "Meu nome é" em inglês?</p>
+
+<input id="resposta">
+
+<br>
+
+<button onclick="verificar()">Responder</button>
+
+<p id="resultado"></p>
+
+</div>
+
+<script>
+
+function verificar(){
+
+let r = document.getElementById("resposta").value.toLowerCase()
+
+if(r.includes("my name is")){
+
+document.getElementById("resultado").innerHTML="✅ Correto!"
+
+}else{
+
+document.getElementById("resultado").innerHTML="❌ Errado! Resposta: my name is"
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
